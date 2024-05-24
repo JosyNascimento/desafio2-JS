@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main class="conversor-de-moedas">
+<h1>Conversor de Moedas</h1>
+    <form>
+        <label for="amount">Quantidade:</label>
+        <input type="number" id="amount" name="amount"><br><br>
+        <label for="fromCurrency">Moeda de origem:</label>
+
+        <select id="fromCurrency" name="fromCurrency">
+          <option value="USD">Dólar</option>
+          <option value="EUR">Euro</option>
+          <option value="BRL">Real</option>
+        </select><br><br>
+
+        <label for="toCurrency">Moeda de destino:</label>
+
+        <select id="toCurrency" name="toCurrency">
+          <option value="USD">Dólar</option>
+          <option value="EUR">Euro</option>
+          <option value="BRL">Real</option>
+        </select><br><br>
+
+        <input type="button" value="Converter" onclick="convert()">
+
+        <p id="result"></p>
+      </form>
+    </main>
+
+
+
+
+
+
+    <Footer>
+        Made by Joseilda
+    </Footer>
+
+</body>
+</html>
