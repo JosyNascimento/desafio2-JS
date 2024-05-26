@@ -1,44 +1,39 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-  }
-  
-  h1{
-    text-align: center;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+}
 
 
 
-  .conversor-de-moedas {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 40px;
-    padding-left: 40px;
-    background-color: #fff;
-    border: 1px solid #dddddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+.conversor-de-moedas {
+  align-items: center;
+  max-width: 600px;
+  margin: 40px auto;
+  padding-block: 40px;
+  padding-left: 30px;
+  padding-right: 40px;
+  background-color: #fff;
+  border: 1px solid #d5e1f3;
+  box-shadow: 0 0 10px rgba(96, 132, 230, 0.1);
+}
 
-  
-  .conversor-de-moedas input[type="number"] {
-    width: 100%;
-    height: 30px;
-    padding: 10px;
-    font-size: 18px;
-    border: 1px solid #ccc;
-  }
-  
-  .conversor-de-moedas input [type="button"] {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
- 
 
-  footer {
-   text-shadow: #4CAF50;
-  }
+.conversor-de-moedas input[type="number"] {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #b9c5ea;
+}
+
+
+
+
+.footer {
+  color: #b9c5ea;
+  text-align: center;
+}
